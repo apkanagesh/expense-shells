@@ -27,9 +27,9 @@ VALIDATE(){
     else
         echo -e "$2 is...$G SUCCESS $N"   | tee -a $LOG_FILE
     fi               
-} 
 
      echo "script started executing at: $(date)"  | tee -a $LOG_FILE
+} 
 
      CHECK_ROOT
 
